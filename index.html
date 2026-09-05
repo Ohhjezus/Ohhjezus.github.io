@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dhama</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<nav>
+<a href="./">Home</a>
+<a href="./privacy.html">Privacy Policy</a>
+<a href="./terms.html">Terms of Service</a>
+</nav>
+
+<h1>Dhama</h1>
+<p class="lede">A personal automation tool that publishes and manages video content on its operator's own YouTube channel.</p>
+
+<h2>What it does</h2>
+<p>Dhama is a small, self-hosted automation project. It connects to YouTube through the official YouTube Data API v3 and performs routine channel tasks on behalf of the person running it:</p>
+<ul>
+<li>Uploading video files to the operator's own channel</li>
+<li>Setting and updating video titles, descriptions, tags and thumbnails</li>
+<li>Managing playlists and video visibility</li>
+</ul>
+
+<h2>Who it is for</h2>
+<p>Dhama is not a public product. It is operated by a single person for their own channel, and is not offered as a service to third parties.</p>
+
+<h2>Google API access</h2>
+<p>Dhama requests the following OAuth scopes, and nothing else:</p>
+<ul>
+<li><code>.../auth/youtube.upload</code> — upload videos</li>
+<li><code>.../auth/youtube.force-ssl</code> — manage videos, playlists and captions over HTTPS</li>
+</ul>
+<p>Access is granted by the operator signing in with their own Google Account. Dhama's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Contact</h2>
+<p>Questions about this application can be sent to the address listed on the <a href="./privacy.html">Privacy Policy</a> page.</p>
+
+<footer>Dhama · personal automation project</footer>
+</div>
+</body>
+</html>
